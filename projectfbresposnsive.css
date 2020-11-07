@@ -1,0 +1,82 @@
+@media screen and (max-width: 980px)
+{
+    .logo-area
+    {
+        width: 100%;
+        float:none;
+        text-align: center ;
+
+    }
+    .login-area
+    {
+        width: 434px;
+        margin:auto;
+        float: none;
+       
+    }
+    .login-area form
+{
+    float: none;
+}
+.left-area
+{
+    width: 100%;
+    float: none;
+}
+.right-area
+{
+    width:100%;
+    float: none;
+}
+.signup-area
+{
+    background: linear-gradient(#D4D9E9,#fff);
+}
+.login-area .login input[type="submit"]
+{
+    width: 10%;
+    padding-block: 20px;
+   font-size: 20px;
+   font-weight: 400;
+   font-variant: small-caps;
+   text-align: center;
+   border: none;
+}
+.login-area .login input[type="submit"]:hover
+{
+    text-decoration: underline;
+    color: black;
+}
+
+}
+@media screen and(max-width:768px)
+{
+    .login-area
+    {
+        width: 100%;
+    }
+    
+        .login-area .email,
+    .login-area .password,
+    .login-area .login-area{
+        
+        float:none;
+        margin-right:0;
+    
+    }
+    .login-area .login
+{
+    margin-right:0;
+    margin-bottom:0;
+    cursor: pointer;
+}
+.login-area input[type="text"],
+.login-area input[type="password"]
+{
+    width: 100%;
+    float: none;
+}
+
+}
+
+
